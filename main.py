@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 def main() -> None:
     """Plot a sine wave."""
     x = np.linspace(0, 2 * np.pi, 200)
-    y = np.sin(x)
+    y = 2*np.sin(x)
 
     fig, ax = plt.subplots(figsize=(8, 4))
     ax.plot(x, y, label="sin(x)")
